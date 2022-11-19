@@ -40,7 +40,7 @@ const Home: NextPage = () => {
         <Link href="/helios">
           <button className="btn btn-primary m-5" >Smart Contract example</button>
         </Link>
-        <div>Your NFTs:</div>
+        <div>Your test NFTs:</div>
         <NftGrid nfts={nftList} />
       </div>
     </div>
